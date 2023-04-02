@@ -2,7 +2,8 @@
     "private": true,
     "scripts": {
         "dev": "vite",
-        "build": "vite build"
+        "build": "vite build",
+        "postinstall": "php artisan storage:link"
     },
     "devDependencies": {
         "@popperjs/core": "^2.11.6",
